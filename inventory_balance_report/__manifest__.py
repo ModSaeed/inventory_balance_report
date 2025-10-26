@@ -1,16 +1,16 @@
 {
     "name": "Inventory Balance Report",
     "version": "17.0.0.1",
-    "summary": "This module provides a comprehensive Inventory Balance Report that allows users to view stock levels as of a specific date. It calculates and displays"
-               "Opening Balance before the selected date"
-               "Total Incoming Quantity within the selected period"
-               "Total Outgoing Quantity within the selected period"
-               "Current Balance up to the specified date",
+    "summary": "Advanced Inventory Balance Report/Inventory Report with Opening, Incoming, Outgoing & Current Stock",
     "description": """
-        Inventory Balance Report
+        Inventory Balance Report - Complete Stock Movement Tracking
+        ===========================================================
+
         This module provides comprehensive inventory balance reporting functionality for tracking
         stock movements and current inventory levels across your warehouse.
+
         Key Features:
+        -------------
         * Generate inventory reports by specific date ranges
         * View opening balance for products at the start of the reporting period
         * Track incoming quantities (receipts, returns, adjustments)
@@ -20,17 +20,37 @@
         * Export reports in multiple formats (PDF and Excel)
         * User-friendly wizard interface for report generation
         * Detailed product-wise inventory movement analysis
+        * Real-time stock valuation and tracking
+
         Use Cases:
+        ----------
         * Period-end inventory reconciliation
         * Stock audit and verification
         * Inventory valuation reports
         * Movement analysis for specific products or locations
         * Historical inventory tracking and analysis
+        * Warehouse management and stock control
+        * Financial reporting and stock audits
+
+        Perfect For:
+        ------------
+        * Warehouse managers
+        * Inventory controllers
+        * Stock auditors
+        * Accountants needing inventory valuation
+        * Operations managers
+
         The module seamlessly integrates with Odoo's stock management system and provides
         accurate, real-time inventory data for better decision making.
+
+        Keywords: inventory report, stock balance, warehouse report, inventory tracking,
+        stock movement, inventory valuation, stock audit, opening balance, closing balance,
+        inventory reconciliation, stock analysis, warehouse management
     """,
+
     "category": "Inventory",
     "author": "ModSaeed",
+    "website": "",
     "depends": ["stock", "base"],
     "data": [
         "security/ir.model.access.csv",
@@ -40,13 +60,17 @@
         "views/inventory_report_views.xml",
         "wizard/inventory_report_wizard_views.xml",
     ],
+
     'external_dependencies': {
         'python': ['xlsxwriter'],
     },
-    'images': ['static/description/images/images.png','static/description/images/images.png'],
+
+    # FIXED: Correct path for the icon/thumbnail
+    'images': ['static/description/icon.png'],
+
     "license": "OPL-1",
     "currency": "EUR",
-    "price": 64.0,
+    "price": 55.0,
     "installable": True,
-    "application": True
+    "application": True,
 }
