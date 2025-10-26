@@ -1,7 +1,11 @@
 {
     "name": "Inventory Balance Report",
     "version": "17.0.0.1",
-    "summary": "Inventory report by date with opening balance, in/out qty, and current balance",
+    "summary": "This module provides a comprehensive Inventory Balance Report that allows users to view stock levels as of a specific date. It calculates and displays"
+               "Opening Balance before the selected date"
+               "Total Incoming Quantity within the selected period"
+               "Total Outgoing Quantity within the selected period"
+               "Current Balance up to the specified date",
     "description": """
         Inventory Balance Report
         This module provides comprehensive inventory balance reporting functionality for tracking
@@ -39,7 +43,7 @@
     'external_dependencies': {
         'python': ['xlsxwriter'],
     },
-    'images': ['static/description/images/images.jpg','static/description/images/images.jpg'],
+    'images': ['static/description/images/images.png','static/description/images/images.png'],
     "license": "OPL-1",
     "currency": "EUR",
     "price": 64.0,
