@@ -1,0 +1,2 @@
+# inventory_balance_report
+This repository for inventory_balance_report module
