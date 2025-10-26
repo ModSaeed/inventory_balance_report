@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Action to open the wizard -->
+    <record id="action_inventory_report_wizard" model="ir.actions.act_window">
+      <field name="name">Inventory Balance Report</field>
+      <field name="res_model">inventory.report.wizard</field>
+      <field name="view_mode">form</field>
+      <field name="target">new</field>
+    </record>
+
+    <!-- Main Menu -->
+    <menuitem id="menu_inventory_report_root"
+              name="Inventory Reports"
+              parent="stock.menu_warehouse_report"
+              sequence="100"/>
+
+  <!-- Submenu to open the report wizard -->
+    <menuitem id="menu_inventory_balance_report"
+              name="Balance Report by Date"
+              parent="menu_inventory_report_root"
+              action="action_inventory_report_wizard"
+              sequence="10"/>
+</odoo>

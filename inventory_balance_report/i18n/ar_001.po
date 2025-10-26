@@ -1,0 +1,234 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* inventory_balance_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-11 04:59+0000\n"
+"PO-Revision-Date: 2025-06-11 04:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: inventory_balance_report
+#: model:ir.actions.report,print_report_name:inventory_balance_report.inventory_report_pdf_action
+#: model:ir.actions.report,print_report_name:inventory_balance_report.inventory_report_xlsx
+msgid ""
+"'Inventory Balance Report - %s' % (object.date_to.strftime('%Y-%m-%d'))"
+msgstr ""
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_balance_template
+msgid ""
+"<br/>\n"
+"                            الفترة:\n"
+"                            من"
+msgstr ""
+
+#. module: inventory_balance_report
+#: model:ir.ui.menu,name:inventory_balance_report.menu_inventory_balance_report
+msgid "Balance Report by Date"
+msgstr "تقرير المخزون في تاريخ معين"
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.view_inventory_report_wizard_form
+msgid "Cancel"
+msgstr "الغاء"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__create_uid
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_wizard__create_uid
+msgid "Created by"
+msgstr "إنشاء بواسطة"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__create_date
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_wizard__create_date
+msgid "Created on"
+msgstr "إنشاء في"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__display_name
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_wizard__display_name
+msgid "Display Name"
+msgstr "عرض اﻹسم"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_wizard__date_from
+msgid "From"
+msgstr "من تاريخ"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__id
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_wizard__id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: inventory_balance_report
+#: model:ir.actions.act_window,name:inventory_balance_report.action_inventory_report_line
+#: model:ir.actions.act_window,name:inventory_balance_report.action_inventory_report_wizard
+msgid "Inventory Balance Report"
+msgstr "تقرير رصيد المخزون"
+
+#. module: inventory_balance_report
+#: model:ir.actions.report,name:inventory_balance_report.inventory_report_pdf_action
+msgid "Inventory Balance Report PDF"
+msgstr "تقرير رصيد المخزون بي دي اف"
+
+#. module: inventory_balance_report
+#: model:ir.actions.report,name:inventory_balance_report.inventory_report_xlsx
+msgid "Inventory Report Excel"
+msgstr "تقرير رصيد المخزون اكسل"
+
+#. module: inventory_balance_report
+#: model:ir.model,name:inventory_balance_report.model_inventory_report_line
+msgid "Inventory Report Line"
+msgstr "بنود تقرير المخزون"
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.view_inventory_report_line_list
+msgid "Inventory Report Lines"
+msgstr "بنود تقرير المخزون"
+
+#. module: inventory_balance_report
+#: model:ir.model,name:inventory_balance_report.model_inventory_report_wizard
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.view_inventory_report_wizard_form
+msgid "Inventory Report Wizard"
+msgstr ""
+
+#. module: inventory_balance_report
+#: model:ir.ui.menu,name:inventory_balance_report.menu_inventory_report_root
+msgid "Inventory Reports"
+msgstr "تقارير المخزون"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__write_uid
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_wizard__write_uid
+msgid "Last Updated by"
+msgstr "أخر تحديث بواسطة"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__write_date
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_wizard__write_date
+msgid "Last Updated on"
+msgstr "أخر تحديث في"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_wizard__location_ids
+msgid "Locations"
+msgstr "المواقع"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_wizard__product_id
+msgid "Product"
+msgstr "المنتجات"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_wizard__category_id
+msgid "Product Category"
+msgstr "فئات المنتجات"
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.view_inventory_report_wizard_form
+msgid "Report View"
+msgstr "عرض التقرير"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_wizard__date_to
+msgid "To"
+msgstr "الى تاريخ"
+
+#. module: inventory_balance_report
+#: model:ir.model,name:inventory_balance_report.model_report_inventory_balance_report_inventory_report_xlsx
+msgid "report.inventory_balance_report.inventory_report_xlsx"
+msgstr ""
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_balance_template
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_report_pdf
+msgid "To"
+msgstr "إلى"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__balance
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_balance_template
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_report_pdf
+msgid "Current Balance"
+msgstr "الرصيد الحالي"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__out_qty
+msgid "Outgoing"
+msgstr "الصادر"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__product_id
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_balance_template
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_report_pdf
+msgid "Product"
+msgstr "المنتج"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__in_qty
+msgid "Incoming"
+msgstr "الوارد"
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__product_uom
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_balance_template
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_report_pdf
+msgid "UOM"
+msgstr "الوحدة"
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_balance_template
+msgid ""
+"تقرير رصيد المخزون<br/>\n"
+"                            الموقع:"
+msgstr ""
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_report_pdf
+msgid ""
+"تقرير رصيد المخزون<br/>\n"
+"            الفترة:\n"
+"            من"
+msgstr ""
+
+#. module: inventory_balance_report
+#: model:ir.model.fields,field_description:inventory_balance_report.field_inventory_report_line__opening_qty
+msgid "Opening Quantity"
+msgstr "رصيد أول المدة"
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_balance_template
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_report_pdf
+msgid "Outgoing"
+msgstr "صادر"
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_balance_template
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_report_pdf
+msgid "Opening Quantity"
+msgstr "كمية افتتاحية"
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_balance_template
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.inventory_report_pdf
+msgid "Incoming"
+msgstr "وارد"
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.view_inventory_report_wizard_form
+msgid "📄 Export to PDF"
+msgstr "📄 تصدير الى PDF"
+
+#. module: inventory_balance_report
+#: model_terms:ir.ui.view,arch_db:inventory_balance_report.view_inventory_report_wizard_form
+msgid "📊 Export to Excel"
+msgstr "📊 تصدير الى اكسل"
